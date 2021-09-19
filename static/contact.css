@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=MonteCarlo&family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #90dfee;
+}
+
+/* Navbar */
+#navbar{
+    position: sticky;
+    top: 0px;
+    background-color: #000000;
+    padding: 8px 2px;
+    font-family: 'Roboto Slab', serif; 
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    color: rgb(255, 255, 254);
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 15px;
+    margin-right: 30px;
+}
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar li{ 
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 11px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+#navbar li a:hover{
+    border-bottom: 2px solid white;
+    color: rgb(57, 200, 219);
+}
+
+/* contact form */
+.container{
+     min-height: 82vh;
+}
+.container h1{ 
+    text-align: center; 
+    margin: 5px 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 48%;
+    padding: 10px;
+    margin: 14px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    outline: none;
+}
+.btn{
+    padding: 8px 19px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(255, 21, 21);
+    cursor: pointer;
+    margin-top: 12px;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(231, 16, 16);
+    box-shadow:3px 6px 10px black;
+    
+}
+
+
+/* footer part */
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #030303;
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
